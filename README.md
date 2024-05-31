@@ -8,9 +8,9 @@ atlcrime_weather.csv - dataset including weather conditions, cluster number, and
 
 nodes.csv - crime hotspots (local maximum) of every cluster, used to construct the patrol path 
 
-hack.r - generate weather data and then used to cluster crime incidents and generate the nodes.csv and atlcrime_weather.csv files
+hack.qmd - generate weather data and then used to cluster crime incidents and generate the nodes.csv and atlcrime_weather.csv files
 
-app.r - Shiny app that allows users to input values and predicts crime probability. 
+app.R - Shiny app that allows users to input values and predicts crime probability. 
 
 patrolpath.py - to generate the heatmap based on the number of crimes
 
