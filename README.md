@@ -25,5 +25,3 @@ prediction.html - uses app.r to predict crime probabiilties and types.
 crime_heatmap.html - display the heatmap that gives an overview of the density of number of crimes happening in Atlanta
 
 optimized_patrol_routes.html - map to plot the points of crime hotspots and show the optimal patrol route
-
-Groupmate: @jodielzy
