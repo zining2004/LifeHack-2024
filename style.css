@@ -1,0 +1,107 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Main container styling */
+.main {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('atlanta-background.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Change text color to contrast with the background */
+    padding-bottom: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+    width: 80%;
+    position: sticky;
+    top: 0; /* Ensure the nav stays at the top */
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: rgba(27, 74, 113, 0.5); /* Add a semi-transparent background */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Logo styling */
+.logo {
+    flex-basis: 20%;
+    font-size: 24px; /* Increase font size for the logo */
+    font-weight: bold; /* Make the logo bold */
+}
+
+/* Navigation links styling */
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+/* List items styling */
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Links styling */
+.nav-links ul li a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-size: 18px; /* Increase font size for links */
+    transition: color 0.3s ease; /* Add transition for hover effect */
+}
+
+.nav-links ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Section heading styling */
+section h2 {
+    font-size: 28px; /* Increase font size for section headings */
+    margin-bottom: 20px;
+    text-align: center; /* Center align the headings */
+}
+
+/* Map container styling */
+#map {
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid #fff; /* Add a border to the map */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Add semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Iframe styling */
+iframe {
+    border: none; /* Remove iframe border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+}
