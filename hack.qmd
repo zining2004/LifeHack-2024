@@ -1,3 +1,11 @@
+---
+title: "Data"
+author: "Zi Ning"
+date: "2024-06-01"
+format: html
+---
+
+library(tidyverse)
 library(httr)
 library(jsonlite)
 library(MASS)
